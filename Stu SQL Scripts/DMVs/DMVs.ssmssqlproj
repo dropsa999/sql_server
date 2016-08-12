@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DMVs">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.30.11:sa">
+          <Created>2015-02-17T10:15:09.4195527+13:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.30.11</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SVSH03NZ:SPENDV\sholms">
+          <Created>2015-01-29T09:25:00.9314401+13:00</Created>
+          <Type>SQL</Type>
+          <Server>SVSH03NZ</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>myPCard00</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="auth_scheme.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>auth_scheme.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Capturing deadlocks in SQL Server.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Capturing deadlocks in SQL Server.sql</FullPath>
+        </FileNode>
+        <FileNode Name="check TempDB temp tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>check TempDB temp tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CPU.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CPU.sql</FullPath>
+        </FileNode>
+        <FileNode Name="database memory usage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>database memory usage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Deadlock 2 2012.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Deadlock 2 2012.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Disk Usage by Table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Disk Usage by Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dm_db_index_physical_stats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dm_db_index_physical_stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dm_exec_query_stats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dm_exec_query_stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dm_os_buffer_descriptors.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dm_os_buffer_descriptors.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DMV Starter Pack.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DMV Starter Pack.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Duration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Duration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Extended Events Deadlocks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Extended Events Deadlocks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Frequency.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Frequency.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get the Database size in GB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get the Database size in GB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="log size.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>log size.sql</FullPath>
+        </FileNode>
+        <FileNode Name="metadata.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>metadata.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Missing Indexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Missing Indexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server 2012  Diagnostic Information Queries (July 2012).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQL Server 2012  Diagnostic Information Queries (July 2012).sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server Wait Information.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQL Server Wait Information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="statement level stats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>statement level stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sys.sql_dependencies.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sys.sql_dependencies.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TempDB Monitoring.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TempDB Monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TempDB Patch Latch.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.30.11:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.30.11</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>TempDB Patch Latch.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TempDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TempDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Wait_Type_Description.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Wait_Type_Description.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="SQLServer_DMV_StarterPack.pdf">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLServer_DMV_StarterPack.pdf</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TSQL Examples">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.30.11:sa">
+          <Created>2015-02-11T11:18:27.9014027+13:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.30.11</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>myPCard00</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SVSH03NZ:SPENDV\sholms">
+          <Created>2015-01-29T10:23:50.659006+13:00</Created>
+          <Type>SQL</Type>
+          <Server>SVSH03NZ</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>myPCard00</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="aggregate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>aggregate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="bcp.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>bcp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="concat.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>concat.sql</FullPath>
+        </FileNode>
+        <FileNode Name="convert.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>convert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="datetime.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>datetime.sql</FullPath>
+        </FileNode>
+        <FileNode Name="exceptions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>exceptions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="find db objects missing from svn.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>find db objects missing from svn.sql</FullPath>
+        </FileNode>
+        <FileNode Name="iif.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>iif.sql</FullPath>
+        </FileNode>
+        <FileNode Name="import flat file.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>import flat file.sql</FullPath>
+        </FileNode>
+        <FileNode Name="last day of month.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>last day of month.sql</FullPath>
+        </FileNode>
+        <FileNode Name="option recompile cached plan test.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>option recompile cached plan test.sql</FullPath>
+        </FileNode>
+        <FileNode Name="paging.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>paging.sql</FullPath>
+        </FileNode>
+        <FileNode Name="raiserror nowait.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>raiserror nowait.sql</FullPath>
+        </FileNode>
+        <FileNode Name="raiserror.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>raiserror.sql</FullPath>
+        </FileNode>
+        <FileNode Name="resultset.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>resultset.sql</FullPath>
+        </FileNode>
+        <FileNode Name="rowversion.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>rowversion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sequence.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sequence.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table Partitioning Tutorial.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Table Partitioning Tutorial.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

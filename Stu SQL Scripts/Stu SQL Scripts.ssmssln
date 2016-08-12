@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 12.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DMVs", "DMVs\DMVs.ssmssqlproj", "{F4A5D869-5561-447F-BF11-0F9CDD79D76A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Brent Ozar", "Brent Ozar\Brent Ozar.ssmssqlproj", "{90824265-3658-4BCC-96D2-93114E9403F7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "_Random Stuff", "_Random Stuff\_Random Stuff.ssmssqlproj", "{FC09FC48-9D47-493C-9EDB-A030CEBCB036}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "TSQL Examples", "TSQL Examples\TSQL Examples.ssmssqlproj", "{8DA531A6-6BDF-47B8-93B5-280CC0377DA3}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DBA Stuff", "DBA Stuff\DBA Stuff.ssmssqlproj", "{1DCE1EC3-FB89-4EF8-A318-5A36D58AA3E8}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SSRS Specific", "SSRS Specific\SSRS Specific.ssmssqlproj", "{C93F7388-E087-4957-B4D3-78F0FE90A73F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Create Test Data", "Create Test Data\Create Test Data.ssmssqlproj", "{AACD5270-A2F1-4A10-B1FC-75552DF4062A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "User Functions", "User Functions\User Functions.ssmssqlproj", "{43AB279D-7971-4F32-BEF7-85339EE5A970}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "XML", "XML\XML.ssmssqlproj", "{8A3AF170-F6DE-4DB5-B2D4-07E722F52FCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4A5D869-5561-447F-BF11-0F9CDD79D76A}.Default|Default.ActiveCfg = Default
+		{90824265-3658-4BCC-96D2-93114E9403F7}.Default|Default.ActiveCfg = Default
+		{FC09FC48-9D47-493C-9EDB-A030CEBCB036}.Default|Default.ActiveCfg = Default
+		{8DA531A6-6BDF-47B8-93B5-280CC0377DA3}.Default|Default.ActiveCfg = Default
+		{1DCE1EC3-FB89-4EF8-A318-5A36D58AA3E8}.Default|Default.ActiveCfg = Default
+		{C93F7388-E087-4957-B4D3-78F0FE90A73F}.Default|Default.ActiveCfg = Default
+		{AACD5270-A2F1-4A10-B1FC-75552DF4062A}.Default|Default.ActiveCfg = Default
+		{43AB279D-7971-4F32-BEF7-85339EE5A970}.Default|Default.ActiveCfg = Default
+		{8A3AF170-F6DE-4DB5-B2D4-07E722F52FCA}.Default|Default.ActiveCfg = Default
+		{74094D4C-BC7F-4984-AE20-6EA65BDC1E85}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

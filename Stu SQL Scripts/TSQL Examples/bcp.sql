@@ -1,0 +1,1 @@
+EXEC xp_cmdshell 'bcp "SELECT * FROM pdt_category_abc" queryout "C:\bcptest.txt" -T -c -t,'

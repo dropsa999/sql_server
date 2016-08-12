@@ -1,0 +1,61 @@
+___________________________________________________________________________________________
+Shell script - check_temp_tablespace.ksh
+___________________________________________________________________________________________
+#!/usr/bin/ksh
+#
+ 
+RMAN_SCRIPT_DIR=/rman/scripts
+RMAN_LOG_DIR=/rman/log
+USED_LIMIT="80"
+ 
+. ${RMAN_SCRIPT_DIR}/rman.profile
+
+sqlplus -s / as sysdba << EOF >> ${RMAN_LOG_DIR}/temp_tablespace_usage_history.log
+set pages 0 serverout on feed off
+@${RMAN_SCRIPT_DIR}/check_temp_tablespace.sql
+EOF
+ 
+PERCENT_USED=`tail -1  ${RMAN_LOG_DIR}/temp_tablespace_usage_history.log | awk '{print $9}'`
+ 
+if [ "${PERCENT_USED}" -gt "${USED_LIMIT}" ]
+then
+        echo "" | mailx -s 'WARNING: ${ORACLE_SID} TEMP Tablespace 80 percent used!' ${DBA_EMAIL_LIST}
+        break
+fi
+ 
+
+exit
+___________________________________________________________________________________________
+ 
+___________________________________________________________________________________________
+SQL script - check_temp_tablespace.sql
+___________________________________________________________________________________________
+DECLARE
+   TS_NAME VARCHAR2(20) := null;
+   TEMP_TOTAL NUMBER := 0;
+   TEMP_USED NUMBER := 0;
+   TEMP_FREE NUMBER := 0;
+   PERCENT_USED NUMBER := 0;
+BEGIN
+SELECT   A.tablespace_name , D.mb_total,
+         SUM (A.used_blocks * D.block_size) / 1024 / 1024,
+         D.mb_total - SUM (A.used_blocks * D.block_size) / 1024 / 1024
+         INTO
+         TS_NAME,TEMP_TOTAL,TEMP_USED, TEMP_FREE
+FROM     v$sort_segment A,
+         (
+         SELECT   B.name, C.block_size, SUM (C.bytes) / 1024 / 1024 mb_total
+         FROM     v$tablespace B, v$tempfile C
+         WHERE    B.ts#= C.ts#
+         GROUP BY B.name, C.block_size
+         ) D
+WHERE    A.tablespace_name = D.name
+GROUP by A.tablespace_name, D.mb_total;
+ 
+PERCENT_USED:= ROUND(TEMP_USED*100/TEMP_TOTAL,2);
+dbms_output.put_line('Tablespace: ' || TS_NAME || ', TOTAL: ' || TEMP_TOTAL || ', USED: ' || TEMP_USED || ', PERCENT USED: ' || PERCENT_USED);
+ 
+END;
+/
+
+___________________________________________________________________________________________

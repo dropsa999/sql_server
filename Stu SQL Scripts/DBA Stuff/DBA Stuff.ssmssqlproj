@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DBA Stuff">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.30.11:sa">
+          <Created>2015-01-29T13:55:19.5889589+13:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.30.11</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SVSH03NZ:SPENDV\sholms">
+          <Created>2015-01-29T13:41:02.7140014+13:00</Created>
+          <Type>SQL</Type>
+          <Server>SVSH03NZ</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>myPCard00</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="add new partition to existing.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>add new partition to existing.sql</FullPath>
+        </FileNode>
+        <FileNode Name="attach_database.sql.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>attach_database.sql.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DB Level Permissions v2.1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DB Level Permissions v2.1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="deprecated features.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.30.11:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.30.11</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>deprecated features.sql</FullPath>
+        </FileNode>
+        <FileNode Name="detachdb.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>detachdb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FREEPROCCACHE(@PlanHandle).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FREEPROCCACHE(@PlanHandle).sql</FullPath>
+        </FileNode>
+        <FileNode Name="log WhoIsActive.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>log WhoIsActive.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Process Status Monitor.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Process Status Monitor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="restore mdf without ldf.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>restore mdf without ldf.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Security Audit Report.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Security Audit Report.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Slow Queries Trace.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Slow Queries Trace.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_ActiveProcesses.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_ActiveProcesses.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_activity-2k.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_activity-2k.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBPermissions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_DBPermissions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_whoisactive.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_whoisactive.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table Partitioning Example.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Table Partitioning Example.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_disk_alert.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>usp_disk_alert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="who_is_active_v11_11.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.30.11:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.30.11</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>who_is_active_v11_11.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

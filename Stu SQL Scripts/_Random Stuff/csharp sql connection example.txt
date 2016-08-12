@@ -1,0 +1,13 @@
+SqlConnection cn = new SqlConnection("Data Source=.;initial catalog=tempdb;integrated security=true"); 
+cn.Open();
+
+SqlCommand cmd = new SqlCommand(); 
+cmd.Connection = cn; 
+cmd.CommandType = System.Data.CommandType.StoredProcedure; 
+cmd.CommandText = "testvarcharmax"; 
+SqlParameter parameter = new SqlParameter("s", System.Data.SqlDbType.VarChar, -1); 
+parameter.Value = new StringBuilder().Insert(0, "a", 1000000000).ToString(); 
+cmd.Parameters.Add(parameter); 
+cmd.CommandTimeout = 360;
+
+cmd.ExecuteNonQuery(); 

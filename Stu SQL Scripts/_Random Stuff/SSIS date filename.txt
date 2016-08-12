@@ -1,0 +1,1 @@
+@[$Project::var_FileLocation]  + "Open Colleges" + " " + RIGHT("0" + (DT_STR, 2, 1252)  DATEPART("dd" , GETDATE()), 2) + "-" +   RIGHT("0" + (DT_STR, 2, 1252)  DATEPART("mm" , GETDATE()), 2) + "-" +(DT_STR, 4, 1252)  DATEPART("yy" , GETDATE()) + ".xlsx"

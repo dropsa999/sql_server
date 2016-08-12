@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="_Random Stuff">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.30.11:sa">
+          <Created>2015-02-11T10:51:50.1788307+13:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.30.11</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>myPCard00</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SVSH03NZ:SPENDV\sholms">
+          <Created>2015-01-29T09:30:20.9775837+13:00</Created>
+          <Type>SQL</Type>
+          <Server>SVSH03NZ</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>myPCard00</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="BCP extract binary to file.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BCP extract binary to file.sql</FullPath>
+        </FileNode>
+        <FileNode Name="find nchar unicode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>find nchar unicode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Playpen Creation Script.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.30.11:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.30.11</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Playpen Creation Script.sql</FullPath>
+        </FileNode>
+        <FileNode Name="reset_password.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>reset_password.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server Script Library.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SVSH03NZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SVSH03NZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQL Server Script Library.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="check_temp_tablespace.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>check_temp_tablespace.txt</FullPath>
+        </FileNode>
+        <FileNode Name="clear tables.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>clear tables.txt</FullPath>
+        </FileNode>
+        <FileNode Name="csharp sql connection example.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>csharp sql connection example.txt</FullPath>
+        </FileNode>
+        <FileNode Name="SSIS date filename.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SSIS date filename.txt</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
